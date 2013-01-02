@@ -1,0 +1,7 @@
+<ul id="categories">
+  <% @categories.each do |c| %>
+    <li class="category" id="<%= c.id %>">
+      <a href="<%= "/questions/#{c.id}" %>"><%= c.name %></a>
+    </li>
+  <% end %>
+</ul>

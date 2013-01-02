@@ -1,0 +1,72 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: #333333;
+  margin: 20px 0 0 0;
+  font-family: sans-serif;
+}
+
+#categories {
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+  width: 99%;
+  letter-spacing: 1px;
+
+  .category {
+    list-style-type: none;
+    width: 33%;
+    float: left;
+
+    a {
+      text-align:center;
+      height: 80px;
+      font-size: 30px;
+      display: block;
+      padding: 55px 0 0 0;
+      margin: 5px 5px;
+      text-decoration: none;
+      border-radius: 20px;
+      color: #333333;
+      &:hover {
+        background: grey;
+      }
+    }
+  }
+}
+#geography a {
+  background: #33ccff;
+}
+#entertainment a {
+  background: #ff33ff;
+}
+#artsandliterature a {
+  background: #993300;
+}
+#scienceandnature a {
+  background: #336600;
+}
+#sportsandleisure a {
+  background: #ff6600;
+}
+#history a {
+  background: #ffff66;
+}
+
+.question {
+  border-top: 2px dashed black;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-top: 40px;
+  color: #efefef;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.answer {
+  color: #dd2233;
+}
