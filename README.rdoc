@@ -4,3 +4,7 @@ This is a site that lets you choose 6 categories of trivia questions, and gives
 you a question and answer.
 
 Useful for playing certain quiz related board games.
+
+http://triviagame.herokuapp.com/
+
+(although it only has 12 questions at the moment)
